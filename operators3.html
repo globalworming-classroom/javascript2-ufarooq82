@@ -34,7 +34,11 @@ console.log(!"") // -> true
 
 <script type="application/javascript">
     const runScript = () => {
-        let eatPizza = !!true && !![] && !!"" && !!" "
+        let b = true;
+        let b1 = true;
+        let b2 = true;
+        let b3 = true;
+        let eatPizza = b && b1 && b2 && b3
         document.getElementById("eat").textContent = eatPizza ? "yes" : "no"
     };
 
